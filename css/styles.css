@@ -3,20 +3,28 @@
     margin: 0;
 }
 
+/* Header/NAV */
+
 header {
     background-color: #ECECF2;
-    height: 150px;
+    height: 170px;
 }
-
-
 
 .logo {
     max-width: 191px;
     max-height: 120px;
-    margin: auto;
+    margin-left: 35px;
+    margin-top: 25px;
 }
 
-main {
+.menu {
+    display: inline;
+}
+
+
+/* Main content  */
+
+/* main {
     height: 100vh;
     border: 2px solid green;
 }
@@ -27,4 +35,6 @@ main {
     filter: brightness(40%);
     height: 100vh;
     border: 2px solid pink;
-}
+} */
+
+/* Footer  */
