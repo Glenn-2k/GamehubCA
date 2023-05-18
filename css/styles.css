@@ -14,14 +14,14 @@ header {
 .header-content {
     display: inline-flex;
     gap: 40%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 100%;
 }
 
 .logo {
     max-width: 191px;
     max-height: 120px;
-    margin-left: 35px;
+    margin-left: 70px;
     margin-top: 25px;
 }
 
@@ -30,14 +30,9 @@ nav li {
     /* border: 2px solid orange; */
 }
 
-ul {
-    border: 2px solid purple;
-    margin-top: 27%;
-    margin-right: 3rem;
-}
 
 .navMenu {
-    margin-top: 4.5rem;
+    margin-top: 5.1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
