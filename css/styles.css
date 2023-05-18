@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #ECECF2;
+    height: 150px;
+}
+
+
+
+.logo {
+    max-width: 191px;
+    max-height: 120px;
+    margin: auto;
+}
+
+main {
+    height: 100vh;
+    border: 2px solid green;
+}
+
+.background {
+    background-image: url(/images/galaxy-g2354ae87c-1920_unGbWDsi\ \(1\).jpg);
+    background-size: cover;
+    filter: brightness(40%);
+    height: 100vh;
+    border: 2px solid pink;
+}
