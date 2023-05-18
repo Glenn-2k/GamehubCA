@@ -47,8 +47,10 @@ ul {
 nav a {
     text-decoration: none;
     font-family: oswald, arial, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
     color: #2B2B2B;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 /* Main content  */
