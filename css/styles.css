@@ -12,7 +12,7 @@ header {
 
 .header-content {
     display: inline-flex;
-    gap: 50%;
+    gap: 40%;
     border: 2px solid green;
     width: 100%;
 }
@@ -27,7 +27,7 @@ header {
 nav li {
     text-decoration: none;
     display: inline-flex;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
 }
 
 ul {
@@ -44,12 +44,12 @@ ul {
     gap: 2rem;
 }
 
-nav {
-    margin-right: 5rem;
+nav a {
+    text-decoration: none;
+    font-family: oswald, arial, Arial, Helvetica, sans-serif;
+    color: #2B2B2B;
+    font-weight: 600;
 }
-
-
-
 
 /* Main content  */
 
