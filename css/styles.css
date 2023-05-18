@@ -1,13 +1,20 @@
-* {
+/* Header/NAV */
+body {
     padding: 0;
     margin: 0;
 }
 
-/* Header/NAV */
-
 header {
     background-color: #ECECF2;
     height: 170px;
+    border: 2px solid red;
+}
+
+.header-content {
+    display: inline-flex;
+    gap: 50%;
+    border: 2px solid green;
+    width: 100%;
 }
 
 .logo {
@@ -17,9 +24,31 @@ header {
     margin-top: 25px;
 }
 
-.menu {
-    display: inline;
+nav li {
+    text-decoration: none;
+    display: inline-flex;
+    border: 2px solid orange;
 }
+
+ul {
+    border: 2px solid purple;
+    margin-top: 27%;
+    margin-right: 3rem;
+}
+
+.navMenu {
+    margin-top: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav {
+    margin-right: 5rem;
+}
+
+
 
 
 /* Main content  */
