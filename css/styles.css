@@ -6,21 +6,21 @@ body {
 
 header {
     background-color: #ECECF2;
-    height: 170px;
+    height: 140px;
     /* border: 2px solid red; */
     box-shadow: 0px 1px #00000075;
 }
 
 .header-content {
     display: inline-flex;
-    gap: 40%;
+    gap: 45%;
     /* border: 2px solid green; */
     width: 100%;
 }
 
 .logo {
-    max-width: 191px;
-    max-height: 120px;
+    max-width: 170px;
+    max-height: 99px;
     margin-left: 70px;
     margin-top: 25px;
 }
@@ -32,7 +32,7 @@ nav li {
 
 
 .navMenu {
-    margin-top: 5.1rem;
+    margin-top: 4.9rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
