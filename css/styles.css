@@ -121,17 +121,29 @@ label {
 
 /* Main content  */
 
-/* main {
-    height: 100vh;
-    border: 2px solid green;
+main {
+    height: 80vh;
 }
 
 .background {
-    background-image: url(/images/galaxy-g2354ae87c-1920_unGbWDsi\ \(1\).jpg);
+    position: absolute;
+    background-image: url(/images/GLENNsvart40opacity.jpg);
     background-size: cover;
-    filter: brightness(40%);
     height: 100vh;
-    border: 2px solid pink;
-} */
+}
+
+.classtest {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-content {
+    background-color: #ECECF2;
+    width: 80vw;
+    height: 60vh;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
 
 /* Footer  */
