@@ -1,13 +1,22 @@
 /* Mobile view  */
 
+
 body {
     font-family: oswald, arial, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     width: 100%;
     height: 70px;
     background: #ECECF2;
+}
+
+.logo {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
 nav,
@@ -34,6 +43,7 @@ nav a {
 
 nav ul {
     list-style-type: none;
+    padding: 0;
 }
 
 header {
@@ -46,57 +56,68 @@ nav {
 }
 
 
-
-/* Header/NAV */
-
-
-/* header {
-    background-color: #ECECF2;
-    height: 140px; */
-*/
-/* border: 2px solid red; */
-/* box-shadow: 0px 1px #00000075; */
-/* } */
-
-/* .header-content { */
-/* display: inline-flex; */
-/* gap: 40%; */
-/* border: 2px solid green; */
-/* width: 100%; */
-/* align-items: center; */
-/* } */
-
-/* .logo {
-    max-width: 170px;
-    max-height: 99px;
-    margin-left: 70px;
-    margin-top: 25px;
-
+label {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    margin-top: 24px;
 }
 
-nav li {
-    display: inline-flex; */
-/* border: 2px solid orange; */
-/* }
+@media (min-width: 750px) {
 
 
-.navMenu {
-    margin-top: 4.9rem;
-    display: flex;
-    justify-content: space-around;
-    gap: 2rem;
+    /* Header/NAV */
+
+
+    header {
+        background-color: #ECECF2;
+        height: 140px;
+        /* outline: 2px solid red; */
+        box-shadow: 0px 1px #00000075;
+    }
+
+    .header-content {
+        display: inline-flex;
+        /* outline: 2px solid green; */
+        width: 100%;
+        align-items: center;
+        height: 140px;
+    }
+
+    .logo {
+        height: 100px;
+        margin-left: 100px;
+    }
+
+
+    .navMenu {
+        margin-top: 4.9rem;
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+
+    .menubar {
+        text-decoration: none;
+        font-family: oswald, arial, Arial, Helvetica, sans-serif;
+        font-size: 1.1em;
+        font-weight: 600;
+        text-transform: uppercase;
+        display: flex;
+        /* outline: solid purple 2px; */
+        right: 0px;
+        width: 50%;
+        justify-content: center;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav {
+        background: none;
+    }
 }
-
-nav a {
-    text-decoration: none;
-    font-family: oswald, arial, Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
-    color: #2B2B2B;
-    font-weight: 600;
-    text-transform: uppercase;
-} */
-
-
 
 /* Main content  */
 
