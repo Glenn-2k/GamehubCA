@@ -188,10 +188,25 @@ footer {
     bottom: 0;
 }
 
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 42%;
+}
+
+.social-media {
+    display: inline-flex;
+}
+
+.social-media a {
+    padding: 7px;
+}
+
 .copyright {
-    text-align: center;
     padding-top: 10px;
     font-weight: 200;
     font-size: 0.8rem;
     color: #525252;
+
 }
