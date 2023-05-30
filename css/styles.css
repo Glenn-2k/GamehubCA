@@ -210,3 +210,21 @@ footer {
     color: #525252;
 
 }
+
+
+/* Footer  */
+
+/* Desktop View */
+
+@media (min-width: 769px) {
+
+    .content {
+
+        padding-left: 48%;
+    }
+
+    .social-media {
+        gap: 15px;
+    }
+
+}
