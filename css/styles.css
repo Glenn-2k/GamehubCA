@@ -273,3 +273,35 @@ footer {
 
 
 }
+
+
+/* Content - Home */
+
+/* Mobile view */
+
+@media (min-width: 769px) {
+    .main-content-elements {
+        padding-top: 1%;
+    }
+
+    .home-heading {
+        font-size: 1.5rem;
+    }
+
+    .home-info {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 3%;
+        font-size: 1.09rem;
+        /* margin-top: 3%; */
+    }
+
+    .main-content a {
+        padding-left: 40px;
+        padding-right: 40px;
+        position: relative;
+        bottom: 20px;
+    }
+
+
+}
