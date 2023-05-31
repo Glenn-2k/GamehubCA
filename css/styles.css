@@ -305,3 +305,16 @@ footer {
 
 
 }
+
+
+/* Content - About */
+
+/* Mobile View */
+
+.about-content {
+    display: grid;
+    place-items: center;
+    padding-left: 10%;
+    padding-top: 20%;
+    padding-right: 10%;
+}
