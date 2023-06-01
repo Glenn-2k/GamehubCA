@@ -326,11 +326,6 @@ footer {
 
 
 @media (min-width: 769px) {
-    .about-info-wrap {
-        /* display: flex;
-        flex-wrap: wrap; */
-
-    }
 
 
     .about-content p {
@@ -338,8 +333,61 @@ footer {
         padding: 0;
     }
 
+}
 
 
 
+/* Content - Contact */
 
+/* Mobile View */
+
+
+.contact-header {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.contact-form {
+    /* outline: 2px solid green; */
+    display: grid;
+    place-items: center;
+
+}
+
+.label {
+    /* outline: 2px solid blue; */
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.input {
+    /* outline: 2px solid yellow; */
+    height: 20px;
+
+}
+
+.contact-container {
+    /* outline: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: -5%;
+
+}
+
+#message {
+    height: 45px;
+}
+
+#contact-button {
+    text-decoration: none;
+    /* margin-bottom: 20%; */
+    background-color: #1D1D36;
+    color: #ECECF2;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
 }
