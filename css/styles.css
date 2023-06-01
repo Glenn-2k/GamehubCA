@@ -318,3 +318,28 @@ footer {
 .about-info {
     font-weight: 200;
 }
+
+
+/* Content - About */
+
+/* Desktop View */
+
+
+@media (min-width: 769px) {
+    .about-info-wrap {
+        /* display: flex;
+        flex-wrap: wrap; */
+
+    }
+
+
+    .about-content p {
+        font-size: 1.05rem;
+        padding: 0;
+    }
+
+
+
+
+
+}
