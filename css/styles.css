@@ -458,10 +458,18 @@ footer {
 
 /* Mobile View */
 
+.game {
+    display: block;
+    /* align-items: center; */
+    margin-left: 5%;
+
+}
+
 .games-heading {
     text-align: center;
     font-weight: 400;
     letter-spacing: .2rem;
+    padding-top: 10px;
 }
 
 .games-cover {
@@ -470,19 +478,22 @@ footer {
 }
 
 .games-title {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
 }
 
 .price {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 200;
 }
 
-.add-to-cart {
-    font-size: 0.7rem;
+#add-to-cart {
+    font-size: 0.55rem;
     background-color: #F4A60D;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    color: #000000;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    border-radius: 6px;
+    font-weight: 300;
 }
