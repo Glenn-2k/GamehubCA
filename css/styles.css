@@ -349,26 +349,26 @@ footer {
 }
 
 .contact-form {
-    /* outline: 2px solid green; */
+    outline: 2px solid green;
     display: grid;
     place-items: center;
 
 }
 
 .label {
-    /* outline: 2px solid blue; */
+    outline: 2px solid blue;
     font-size: 0.9rem;
     font-weight: 500;
 }
 
 .input {
-    /* outline: 2px solid yellow; */
+    outline: 2px solid yellow;
     height: 20px;
 
 }
 
 .contact-container {
-    /* outline: 2px solid purple; */
+    outline: 2px solid purple;
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -390,4 +390,95 @@ footer {
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10px;
+    /* place-items: center; */
+    position: absolute;
+    right: 20%;
+    bottom: 34%;
+
+}
+
+.contact-text {
+    display: none;
+}
+
+.contact-content {
+    /* outline: 2px solid orange; */
+}
+
+/* Content - Contact */
+
+/* Desktop View */
+
+@media (min-width: 769px) {
+
+
+    .desktop-wrap {
+        outline: 2px solid gold;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    /* .contact-container {
+        
+    } */
+
+    .contact-text {
+        display: block;
+        font-size: 0.8rem;
+        grid-area: 1fr;
+        grid-column-start: 2;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .contact-form {
+        grid-area: 1fr;
+    }
+
+    #contact-button {
+        position: relative;
+    }
+}
+
+
+/* Content - Contact-sent */
+
+/* Mobile and desktop View */
+
+
+.about-info-wrap {
+    display: grid;
+    place-items: center;
+    padding-top: 10%;
+}
+
+
+/* Content - Games */
+
+/* Mobile View */
+
+.games-heading {
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: .2rem;
+}
+
+.games-cover {
+    height: auto;
+    max-width: 50px;
+}
+
+.games-title {
+    font-size: 0.6rem;
+}
+
+.price {
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.add-to-cart {
+    font-size: 0.7rem;
+    
 }
