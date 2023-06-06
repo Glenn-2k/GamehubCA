@@ -133,16 +133,17 @@ main {
 }
 
 .background {
-    position: absolute;
+    /* position: absolute; */
     background-image: url(/images/GLENNsvart40opacity.jpg);
     background-size: cover;
     height: 100vh;
+    overflow: hidden;
 }
 
 .BG {
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .main-content {
@@ -151,6 +152,7 @@ main {
     height: 50vh;
     margin-top: 80px;
     box-shadow: 0px 1px #00000075;
+    outline: 2px solid red;
 
 }
 
@@ -159,7 +161,7 @@ main {
 
     .BG {
         height: 100vh;
-        width: 98.66vw;
+        /* width: 98.66vw; */
     }
 
     .main-content {
@@ -341,8 +343,31 @@ footer {
 
 /* Mobile View */
 
+.contact-content {
+    display: flex;
+}
 
-.contact-header {
+.contact-form-labels {
+    display: block;
+}
+
+.form,
+.contact-text {
+    flex: 1;
+}
+
+.contact-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.contact-heading {
+    text-align: center;
+}
+
+
+/* .contact-header {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 15px;
@@ -383,17 +408,17 @@ footer {
 #contact-button {
     text-decoration: none;
     /* margin-bottom: 20%; */
-    background-color: #1D1D36;
-    color: #ECECF2;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 10px;
-    /* place-items: center; */
-    position: absolute;
-    right: 20%;
-    bottom: 34%;
+/* background-color: #1D1D36;
+color: #ECECF2;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 10px; */
+/* place-items: center; */
+/* position: absolute;
+right: 20%;
+bottom: 34%;
 
 }
 
@@ -401,15 +426,15 @@ footer {
     display: none;
 }
 
-.contact-content {
-    /* outline: 2px solid orange; */
-}
+.contact-content { */
+/* outline: 2px solid orange; */
+/* } */
 
 /* Content - Contact */
 
 /* Desktop View */
 
-@media (min-width: 769px) {
+/* @media (min-width: 769px) {
 
 
     .desktop-wrap {
@@ -417,13 +442,13 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
 
-    }
+    } */
 
-    /* .contact-container {
+/* .contact-container {
         
     } */
 
-    .contact-text {
+/* .contact-text {
         display: block;
         font-size: 0.8rem;
         grid-area: 1fr;
@@ -447,11 +472,12 @@ footer {
 /* Mobile and desktop View */
 
 
-.about-info-wrap {
+/* .about-info-wrap {
     display: grid;
     place-items: center;
     padding-top: 10%;
 }
+ */
 
 
 /* Content - Games */
