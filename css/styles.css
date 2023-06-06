@@ -410,10 +410,12 @@ Mobile and desktop View  */
 
 /* Mobile View */
 
-.game {
-    display: block;
-    /* align-items: center; */
-    margin-left: 5%;
+.games-container {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    justify-content: center;
+    gap: 4px;
 
 }
 
@@ -431,11 +433,13 @@ Mobile and desktop View  */
 
 .games-title {
     font-size: 0.5rem;
+    margin: 0 auto;
 }
 
 .price {
     font-size: 0.7rem;
     font-weight: 200;
+    margin: 0 auto;
 }
 
 #add-to-cart {
