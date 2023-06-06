@@ -343,7 +343,7 @@ footer {
 
 /* Content - Contact */
 
-/* Mobile View */
+/* Mobile and desktop View */
 
 .contact-content {
     display: flex;
@@ -387,117 +387,23 @@ footer {
 
 }
 
-/* .contact-header {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 15px;
-}
-
-.contact-form {
-    outline: 2px solid green;
-    display: grid;
-    place-items: center;
-
-}
-
-.label {
-    outline: 2px solid blue;
-    font-size: 0.9rem;
-    font-weight: 500;
-}
-
-.input {
-    outline: 2px solid yellow;
-    height: 20px;
-
-}
-
-.contact-container {
-    outline: 2px solid purple;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    margin-top: -5%;
-
-}
-
-#message {
-    height: 45px;
-}
-
-#contact-button {
-    text-decoration: none;
-    /* margin-bottom: 20%; */
-/* background-color: #1D1D36;
-color: #ECECF2;
-padding-left: 30px;
-padding-right: 30px;
-padding-top: 5px;
-padding-bottom: 5px;
-border-radius: 10px; */
-/* place-items: center; */
-/* position: absolute;
-right: 20%;
-bottom: 34%;
-
-}
-
-.contact-text {
-    display: none;
-}
-
-.contact-content { */
-/* outline: 2px solid orange; */
-/* } */
-
-/* Content - Contact */
-
-/* Desktop View */
-
-/* @media (min-width: 769px) {
 
 
-    .desktop-wrap {
-        outline: 2px solid gold;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-    } */
-
-/* .contact-container {
-        
-    } */
-
-/* .contact-text {
-        display: block;
-        font-size: 0.8rem;
-        grid-area: 1fr;
-        grid-column-start: 2;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-
-    .contact-form {
-        grid-area: 1fr;
-    }
-
-    #contact-button {
-        position: relative;
-    }
-}
 
 
-/* Content - Contact-sent */
-
-/* Mobile and desktop View */
 
 
-/* .about-info-wrap {
+/* Content - Contact-sent 
+
+Mobile and desktop View  */
+
+
+.about-info-wrap {
     display: grid;
     place-items: center;
     padding-top: 10%;
 }
- */
+
 
 
 /* Content - Games */
