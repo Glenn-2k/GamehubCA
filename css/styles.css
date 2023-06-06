@@ -374,6 +374,18 @@ footer {
     flex: 1;
 }
 
+.contact-send {
+    background-color: #1D1D36;
+    border: none;
+    color: #ECECF2;
+    border-radius: 5px;
+    min-height: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 4px;
+
+
+}
 
 /* .contact-header {
     text-align: center;
