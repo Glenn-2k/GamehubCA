@@ -424,7 +424,7 @@ Mobile and desktop View  */
     display: flex;
     flex-direction: column;
     /* outline: 2px solid green; */
-    margin: 8px;
+    margin: 15px;
 }
 
 .games-heading {
@@ -463,4 +463,25 @@ Mobile and desktop View  */
     font-weight: 300;
     text-align: center;
     margin-bottom: 0;
+}
+
+
+/* Content - Games */
+
+/* Mobile View */
+
+@media (min-width: 769px) {
+
+    .games-container {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .game {
+        margin-bottom: 0;
+    }
+
+    #add-to-cart {
+        bottom: 0;
+    }
+
 }
