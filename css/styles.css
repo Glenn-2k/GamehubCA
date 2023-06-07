@@ -439,6 +439,7 @@ Mobile and desktop View  */
     font-weight: 400;
     letter-spacing: .2rem;
     padding-top: 10px;
+    text-align: center;
 }
 
 .games-cover {
