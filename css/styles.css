@@ -411,28 +411,21 @@ Mobile and desktop View  */
 /* Mobile View */
 
 .games-container {
-    display: flex;
-    flex-direction: row;
-    margin: 5%;
-    gap: 6px;
-    outline: 2px solid red;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    /* outline: 2px solid red; */
 }
 
 
-.item-1,
-.item-2,
-.item-3,
-.item-4,
-.item-5,
-.item-6 {
-    flex: 1;
-}
 
 .game {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* outline: 2px solid green; */
+    margin: 10px;
 }
 
 .games-heading {
@@ -445,6 +438,7 @@ Mobile and desktop View  */
 .games-cover {
     height: auto;
     max-width: 50px;
+    margin: 0 auto;
 }
 
 .games-title {
@@ -469,4 +463,5 @@ Mobile and desktop View  */
     border-radius: 6px;
     font-weight: 300;
     text-align: center;
+    margin-bottom: 0;
 }
