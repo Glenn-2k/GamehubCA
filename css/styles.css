@@ -414,13 +414,28 @@ Mobile and desktop View  */
     display: flex;
     flex-direction: row;
     margin: 5%;
-    justify-content: center;
-    gap: 4px;
+    gap: 6px;
+    outline: 2px solid red;
+    flex-wrap: wrap;
+}
 
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
+    flex: 1;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .games-heading {
-    text-align: center;
     font-weight: 400;
     letter-spacing: .2rem;
     padding-top: 10px;
@@ -437,7 +452,7 @@ Mobile and desktop View  */
 }
 
 .price {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     font-weight: 200;
     margin: 0 auto;
 }
@@ -452,4 +467,5 @@ Mobile and desktop View  */
     padding-bottom: 4px;
     border-radius: 6px;
     font-weight: 300;
+    text-align: center;
 }
