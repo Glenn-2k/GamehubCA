@@ -468,7 +468,7 @@ Mobile and desktop View  */
 
 /* Content - Games */
 
-/* Mobile View */
+/* Desktop View */
 
 @media (min-width: 769px) {
 
@@ -484,4 +484,37 @@ Mobile and desktop View  */
         bottom: 0;
     }
 
+}
+
+
+/* Content - Game Specific */
+
+/* Mobile View */
+
+.product-specific-content {
+    margin: 15px;
+}
+
+.specific-heading {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+
+
+.grid-container-specific {
+    display: grid;
+    grid-template-rows: row;
+    margin: 15px;
+}
+
+
+.product-specific-cover {
+    max-height: 150px;
+}
+
+.specific-text {
+    font-weight: 200;
+    font-size: 0.7rem;
 }
