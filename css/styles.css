@@ -487,6 +487,12 @@ Mobile and desktop View  */
 
     #add-to-cart {
         bottom: 0;
+        font-weight: 400;
+        font-size: 0.6rem;
+    }
+
+    .games-title {
+        font-size: 0.7rem;
     }
 
 
@@ -574,4 +580,5 @@ Mobile and desktop View  */
     .specific-heading {
         font-size: 1.5rem;
     }
+
 }
