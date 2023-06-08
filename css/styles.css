@@ -635,7 +635,26 @@ Mobile and desktop View  */
 
 /* Desktop View */
 
-.full-cart-text {
-    margin-left: 300px;
-    margin-right: 300px;
+@media (min-width: 769px) {
+
+
+    .full-cart-text {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+}
+
+
+
+/* Content - Empty Cart */
+
+/* Mobile View */
+
+.empty-cart-text {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+
+
 }
