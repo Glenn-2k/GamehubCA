@@ -595,32 +595,32 @@ Mobile and desktop View  */
 .full-cart-game {
     display: flex;
     justify-content: space-between;
-    margin: 40px;
+    margin: 20px 60px 5px 60px;
 }
 
 .subtotal-container {
     display: flex;
     justify-content: space-between;
-    margin: 40px;
+    margin: 20px 60px 5px 60px;
     font-weight: 300;
 }
 
 .shipping-container {
     display: flex;
     justify-content: space-between;
-    margin: 40px;
+    margin: 20px 60px 5px 60px;
     font-weight: 300;
 }
 
 .total-container {
     display: flex;
     justify-content: space-between;
-    margin: 40px;
+    margin: 20px 60px 5px 60px;
     font-weight: 300;
 }
 
 .full-cart-checkout {
-    font-size: 0.55rem;
+    font-size: 0.8rem;
     background-color: #F4A60D;
     color: #000000;
     padding-right: 20px;
@@ -630,7 +630,12 @@ Mobile and desktop View  */
     border-radius: 6px;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 0;
     text-decoration: none;
+}
 
+.full-cart-text {
+    display: grid;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
