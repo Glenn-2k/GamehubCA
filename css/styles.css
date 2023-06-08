@@ -546,3 +546,32 @@ Mobile and desktop View  */
     margin-top: 0;
     margin-bottom: 1px;
 }
+
+
+/* Content - Game Specific */
+
+/* Mobile View */
+
+@media (min-width: 769px) {
+
+    .product-specific-cover {
+        max-height: 200px;
+    }
+
+    .specific-text {
+        font-size: 0.9rem;
+        margin-right: 200px;
+    }
+
+    #add-to-cart-specific {
+        font-size: 0.7rem;
+    }
+
+    .specific-price {
+        margin-top: 62px;
+    }
+
+    .specific-heading {
+        font-size: 1.5rem;
+    }
+}
