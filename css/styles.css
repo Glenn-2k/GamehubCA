@@ -511,9 +511,9 @@ Mobile and desktop View  */
 
 
 .grid-container-specific {
-    display: grid;
-    grid-template-rows: row;
+    display: flex;
     margin: 15px;
+    gap: 20px;
 }
 
 
@@ -522,8 +522,9 @@ Mobile and desktop View  */
 }
 
 .specific-text {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 0.7rem;
+    margin: 0;
 }
 
 #add-to-cart-specific {
@@ -535,8 +536,13 @@ Mobile and desktop View  */
     padding-top: 3px;
     padding-bottom: 4px;
     border-radius: 6px;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 0;
     text-decoration: none;
+}
+
+.specific-price {
+    margin-top: 0;
+    margin-bottom: 1px;
 }
