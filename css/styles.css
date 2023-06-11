@@ -247,7 +247,7 @@ footer {
     height: 100%;
     display: grid;
     place-items: center;
-    padding-top: 7%;
+    padding-top: 13%;
 }
 
 .home-heading {
@@ -268,7 +268,6 @@ footer {
 
 .home-cta {
     text-decoration: none;
-    /* margin-bottom: 20%; */
     background-color: #1D1D36;
     color: #ECECF2;
     padding-left: 90px;
@@ -326,6 +325,10 @@ footer {
     font-weight: 200;
 }
 
+.about-info-wrap {
+    padding-top: 10%;
+}
+
 
 /* Content - About */
 
@@ -338,6 +341,10 @@ footer {
     .about-content p {
         font-size: 1.05rem;
         padding: 0;
+    }
+
+    .about-info-wrap {
+        padding-top: 18%;
     }
 
 }
@@ -398,13 +405,24 @@ footer {
 
 /* Content - Contact-sent 
 
-Mobile and desktop View  */
+Mobile View  */
 
 
-.about-info-wrap {
+.contact-sent-info-wrap {
     display: grid;
     place-items: center;
-    padding-top: 10%;
+    padding-top: 40%;
+}
+
+/* Content - Contact-sent 
+
+Mobile View  */
+
+
+@media (min-width: 769px) {
+    .contact-sent-info-wrap {
+        padding-top: 25%;
+    }
 }
 
 
@@ -414,11 +432,8 @@ Mobile and desktop View  */
 /* Mobile View */
 
 .games-container {
-    /* display: flex;
-    flex-direction: row; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* outline: 2px solid red; */
     margin: 20px;
 }
 
@@ -427,7 +442,6 @@ Mobile and desktop View  */
 .game {
     display: flex;
     flex-direction: column;
-    /* outline: 2px solid green; */
     margin: 15px;
 }
 
@@ -459,8 +473,6 @@ Mobile and desktop View  */
     font-size: 0.55rem;
     background-color: #F4A60D;
     color: #000000;
-    /* padding-right: 20px;
-    padding-left: 20px; */
     padding-top: 3px;
     padding-bottom: 4px;
     border-radius: 6px;
