@@ -71,7 +71,7 @@ label {
 
 /* Desktop */
 
-@media (min-width: 769px) {
+@media (min-width: 845px) {
 
 
     /* Header/NAV */
@@ -80,13 +80,11 @@ label {
     header {
         background-color: #ECECF2;
         height: 140px;
-        /* outline: 2px solid red; */
         box-shadow: 0px 1px #00000075;
     }
 
     .header-content {
         display: inline-flex;
-        /* outline: 2px solid green; */
         width: 100%;
         align-items: center;
         height: 140px;
@@ -112,9 +110,9 @@ label {
         font-weight: 600;
         text-transform: uppercase;
         display: flex;
-        right: 0px;
-        width: 50%;
-        justify-content: center;
+        right: 50px;
+        width: 100%;
+        justify-content: end;
     }
 
     label {
@@ -132,12 +130,10 @@ label {
 /* Mobile view  */
 
 main {
-    /* height: 80vh; */
     padding-bottom: 40px;
 }
 
 .background {
-    /* position: absolute; */
     background-image: url(/images/GLENNsvart40opacity.jpg);
     background-size: cover;
     height: 100vh;
