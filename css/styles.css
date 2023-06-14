@@ -312,9 +312,13 @@ footer {
 
 /* Mobile View */
 
+.about-heading {
+    text-align: center;
+}
+
 .about-content {
     align-items: center;
-    margin: 10%;
+    margin: 1%;
 }
 
 .about-info {
@@ -340,7 +344,8 @@ footer {
     }
 
     .about-info-wrap {
-        padding-top: 18%;
+        padding-top: 6%;
+        margin: 80px;
     }
 
 }
