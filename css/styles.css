@@ -711,3 +711,10 @@ Mobile View  */
     font-size: 1rem;
     font-weight: 300;
 }
+
+
+/* Global */
+
+.hidden {
+    display: none;
+}
